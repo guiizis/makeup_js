@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Primeior_Desafio</title>
+</head>
+<body>
+    <header>
+        <h3>Make Up Catalog</h3>
+    </header>
+    <main>
+        <div id="filters">
+            <label>
+                Nome:
+                <input type="text" id="name" name="name">
+            </label>
+            <button type="button" id="btn_product_name" name="btn_product_name"> buscar </button>
+            <label>
+                Marca:
+                <select type="select" id="brand" name="brand">
+                    <option value="all" selected>Todos</option>
+                </select>
+            </label>
+            <label>
+                Tipo:
+                <select type="select" id="type" name="type">
+                    <option value="all" selected>Todos</option>
+                </select>
+            </label>
+            <label>
+                <select type="select" id="best_rate" name="best_rate">
+                    <option value="best_rated" selected>Melhor Avaliados</option>
+                    <option value="lower_prices">Menores Preços</option>
+                    <option value="higher_prices">Maiores Preços</option>
+                </select>
+            </label>
+        </div>
+        <section id="product_container"></section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

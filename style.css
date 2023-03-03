@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100%;
+  margin: 0rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: black;
+  margin-bottom: 2rem;
+}
+
+#filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#filters label {
+  margin: 0rem 2rem;
+}
+
+#filters label select {
+  min-width: 169px;
+}
+
+#product_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0rem 2rem;
+}
+
+
+.product_card {
+  width: 15%;
+  height: 350px;
+  margin-bottom: 5rem;
+  margin: 1rem;
+  background-color: lightgrey;
+}
+
+.img_card {
+  height: 10.49rem;
+  width: 85%;
+  margin-bottom: 0.25rem;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_info {
+  background-color: #fff;
+  padding: 10px;
+  min-width: 80%;
+  max-width: 270px;
+  border-radius: 2px;
+}
+
+.info_label {
+  text-align: center;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.brand {
+  background-color: lightgrey; 
+}
+
+.price {
+  background-color: skyblue; 
+}
